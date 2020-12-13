@@ -10,7 +10,7 @@ const UserSchema = new Schema({
     },
     email: {
         type: String,
-        required: "E-mal address is required",
+        required: "E-mail address is required",
         unique: true,
         match: [/.+\@.+\..+/, "Please enter a valid e-mail address"],
     },
